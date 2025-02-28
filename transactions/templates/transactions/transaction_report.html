@@ -9,13 +9,15 @@
         {% for transaction in object_list %}
             <p class="text-lg mb-4">
                 {% if transaction.transaction_type == 1 %}
-                    Successfully deposited BDt {{ transaction.amount|floatformat:2 }}.
+                    Successfully deposited ${{ transaction.amount|floatformat:2 }}.
+                {% elif transaction.transaction_type == 2 %}
+                    Successfully withdrawn ${{ transaction.amount|floatformat:2 }}.
 
                 {% endif %}
             </p>
         {% endfor %}
         <p class="text-lg font-bold mt-5">
-            Current Balance: BDT {{ account.balance|floatformat:2 }}
+            Current Balance: ${{ account.balance|floatformat:2 }}
         </p>
     </div>
 </div>
