@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +9,12 @@
 </head>
 <body class="bg-indigo-600">
     {% include 'navbar.html' %}
-    <div>
-        {% block content %}
-        
-        {% endblock %}
-    </div>
+    
+        <div class="lg:container lg:mx-auto" id="main">
+            {% include 'messages.html' %}
+            {% block content %}
+            {% endblock %}
+        </div>
+    
 </body>
 </html>
