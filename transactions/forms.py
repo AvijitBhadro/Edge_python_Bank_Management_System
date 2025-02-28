@@ -43,23 +43,30 @@ class WithdrawForm(TransactionForm):
         amount = self.cleaned_data.get('amount')
         if amount < min_withdraw_amount:
             raise forms.ValidationError(
-                f'You can withdraw at least {min_withdraw_amount} $'
+                f'You can withdraw at least BDT {min_withdraw_amount}'
             )
 
         if amount > max_withdraw_amount:
             raise forms.ValidationError(
-                f'You can withdraw at most {max_withdraw_amount} $'
+                f'You can withdraw at most BDT {max_withdraw_amount}'
             )
 
         if amount > balance: # amount = 5000, tar balance ache 200
             raise forms.ValidationError(
-                f'You have {balance} $ in your account. '
+                f'You have BDT {balance} in your account. '
                 'You can not withdraw more than your account balance'
             )
 
         return amount
 
 
+
+
+class LoanRequestForm(TransactionForm):
+    def clean_amount(self):
+        amount = self.cleaned_data.get('amount')
+
+        return amount
 
 
 
