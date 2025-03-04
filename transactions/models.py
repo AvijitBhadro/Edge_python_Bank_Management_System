@@ -4,7 +4,18 @@ from django.db import models
 from django.db import models
 from accounts.models import UserBankAccount
 # Create your models here. 
-from .constants import TRANSACTION_TYPE
+DEPOSIT = 1
+WITHDRAWAL = 2
+LOAN = 3
+LOAN_PAID = 4
+
+TRANSACTION_TYPE = (
+    (DEPOSIT, 'Deposite'),
+    (WITHDRAWAL, 'Withdrawal'),
+    (LOAN, 'Loan'),
+    (LOAN_PAID, 'Loan Paid'),
+    
+)
 
 class Transaction(models.Model):
     account = models.ForeignKey(UserBankAccount,related_name='transactions',on_delete=models.CASCADE)
