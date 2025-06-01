@@ -3,9 +3,8 @@
 ## 👥 Contributors
 
 - [@Avijit Bhadro](https://github.com/AvijitBhadro)
-- [@Nasif Hasan](https://github.com/Nasif-Hasan
-
-) - [@Kaniz](https://github.com/KanizFatema17) 
+- [@Nasif Hasan](https://github.com/Nasif-Hasan)
+- [@Kaniz](https://github.com/KanizFatema17) 
 - [@Tasmia Noor Tama](https://github.com/Tasmia-Noor-Tama) 
 
 
