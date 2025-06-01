@@ -1,5 +1,12 @@
 # 🏦 Bank Management System
 
+## 👥 Contributors
+
+- [@your-username](https://github.com/AvijitBhadro)
+- [@collaborator1](https://github.com/Nasif-Hasan
+) 
+- [@collaborator2](https://github.com/collaborator2) 
+
 ## ✨ Features
 
 ### 👤 What Customers (Users) Can Do:
