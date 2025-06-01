@@ -2,10 +2,10 @@
 
 ## 👥 Contributors
 
-- [@your-username](https://github.com/AvijitBhadro)
-- [@collaborator1](https://github.com/Nasif-Hasan
+- [@Avijit Bhadro](https://github.com/AvijitBhadro)
+- [@Nasif Hasan](https://github.com/Nasif-Hasan
 ) 
-- [@collaborator2](https://github.com/collaborator2) 
+- [@Tasmia Noor Tama](https://github.com/Tasmia-Noor-Tama) 
 
 ## ✨ Features
 
