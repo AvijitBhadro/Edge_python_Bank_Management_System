@@ -6,6 +6,7 @@
 - [@Nasif Hasan](https://github.com/Nasif-Hasan
 ) 
 - [@Tasmia Noor Tama](https://github.com/Tasmia-Noor-Tama) 
+- [@Kaniz](https://github.com/KanizFatema17) 
 
 ## ✨ Features
 
